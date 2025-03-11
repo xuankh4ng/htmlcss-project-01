@@ -12,6 +12,11 @@
     box-sizing: border-box;
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -70,7 +75,7 @@ a {
 
 .hero-section {
     position: relative;
-    height: 100vh;
+    height: calc(100vh - 90px);
 
     background-color: var(--primary-background-color);
 }
