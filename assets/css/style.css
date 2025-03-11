@@ -171,15 +171,18 @@ a {
 }
 
 .clients .brand {
-    margin-top: 109px;
+    margin-top: 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .clients .brand a {
-    width: 204px;
+    display: flex;
+    align-items: center;
+    padding: 0 42px;
     height: 91px;
+    border-radius: 12px;
 }
 
 .clients .brand a:hover {
@@ -190,7 +193,7 @@ a {
 /* Guides */
 .guides {
     padding: 93px 0 79px;
-    margin-top: 40px;
+    margin-top: 81px;
 }
 .guides .sub-title {
     position: relative;
