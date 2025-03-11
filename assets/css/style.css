@@ -76,7 +76,8 @@ a {
 .hero-section {
     position: relative;
     height: calc(100vh - 90px);
-
+    display: flex;
+    align-items: center;
     background-color: var(--primary-background-color);
 }
 
@@ -119,21 +120,17 @@ a {
     padding: 13px 16px;
 }
 
-.hero {
-    padding-top: 130px;
-}
-
-.hero .info {
+.hero-section .info {
     width: 51%;
 }
 
-.hero .sub-title {
+.hero-section .sub-title {
     color: var(--sub-font-color);
     font-size: 1.8rem;
     letter-spacing: 0.018rem;
 }
 
-.hero .title {
+.hero-section .title {
     margin-top: 8px;
 
     color: var(--primary-color);
@@ -142,7 +139,7 @@ a {
     line-height: 7.6rem; /* 118.75% */
 }
 
-.hero .desc {
+.hero-section .desc {
     margin-top: 30px;
 
     color: var(--sub2-font-color);
@@ -151,12 +148,12 @@ a {
     line-height: 3.2rem; /* 177.778% */
 }
 
-.hero .cta {
+.hero-section .cta {
     margin-top: 40px;
     width: 170px;
 }
 
-.hero .image {
+.hero-section .image {
     position: absolute;
     bottom: 0;
     right: calc((100vw - 1110px) / 2 - 100px);
